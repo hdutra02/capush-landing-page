@@ -467,6 +467,7 @@ a:focus-visible, button:focus-visible {
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .nav-auth .nav-link { display: none; }
+  .features-grid { grid-template-columns: 1fr; gap: 2rem; }
   /* Ensure the Download App CTA remains visible */
   .nav-container { padding: 0.5rem 0; }
   
