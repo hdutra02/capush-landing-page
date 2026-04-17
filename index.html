@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capush - Playlists of your favorite things</title>
+  <meta name="description" content="Capush helps you save the good things you find online and organize them into visual cards you can actually find later.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=17">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo" style="text-decoration: none;">
+        <img src="logo.jpg" alt="Capush Logo" class="nav-logo-img">
+        <span class="logo-text">Capush</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#curators">Curators</a>
+        <a href="#faq">FAQ</a>
+        <a href="support.html">Support</a>
+      </div>
+      <div class="nav-auth">
+        <a href="https://apps.apple.com/my/app/capush-save-the-internet/id6748712787" class="btn btn-primary pill" target="_blank">Download App</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero light-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="badge">✦ SAVE THE INTERNET</div>
+        <h1 class="hero-title">
+          Playlists of<br>your <span class="gradient-text">favorite</span><br><span class="gradient-text">things.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Capush helps you save the good things you find online and organize them into visual cards you can actually find later.
+        </p>
+        <div class="hero-actions">
+          <a href="https://apps.apple.com/my/app/capush-save-the-internet/id6748712787" class="btn btn-secondary store-btn" target="_blank">
+            <svg viewBox="0 0 24 24" class="icon-apple" fill="currentColor">
+              <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.19 2.31-.88 3.5-.83 1.64.09 2.92.83 3.63 2.02-3.14 1.84-2.6 5.86.32 7.02-.67 1.83-1.63 3.42-2.53 3.96zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+            </svg>
+            Download on the App Store
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="phone-mockup">
+          <video 
+            src="https://res.cloudinary.com/dwqzt7yfa/video/upload/Capush_Video_short_jchw6u.mp4" 
+            autoplay loop muted playsinline 
+            style="width: 100%; max-width: 320px; height: auto; border-radius: 32px; display: block; object-fit: cover;">
+          </video>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Logos Section -->
+  <section class="logos-section">
+    <p class="logos-title">In a few taps, save content from the apps you use every day.</p>
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <img src="logo_ig.png" alt="Instagram" class="brand-logo"> <img src="logo_tiktok.png" alt="TikTok" class="brand-logo"> <img src="logo_youtube.png" alt="YouTube" class="brand-logo"> <img src="logo_reddit.png" alt="Reddit" class="brand-logo"> <img src="logo_x.png" alt="X" class="brand-logo"> <img src="logo_fb.png" alt="Facebook" class="brand-logo"> <img src="logo_spotify.png" alt="Spotify" class="brand-logo"> <img src="logo_netflix.png" alt="Netflix" class="brand-logo"> <img src="logo_amazon.png" alt="Amazon" class="brand-logo"> <img src="logo_maps.png" alt="Google Maps" class="brand-logo"> <img src="logo_snapchat.png" alt="Snapchat" class="brand-logo"> <img src="logo_threads.png" alt="Threads" class="brand-logo"> <img src="logo_chrome.png" alt="Chrome" class="brand-logo"> <img src="logo_safari.png" alt="Safari" class="brand-logo"> <img src="logo_substack.png" alt="Substack" class="brand-logo">
+        <!-- Duplicated for seamless scrolling -->
+        <img src="logo_ig.png" alt="Instagram" class="brand-logo"> <img src="logo_tiktok.png" alt="TikTok" class="brand-logo"> <img src="logo_youtube.png" alt="YouTube" class="brand-logo"> <img src="logo_reddit.png" alt="Reddit" class="brand-logo"> <img src="logo_x.png" alt="X" class="brand-logo"> <img src="logo_fb.png" alt="Facebook" class="brand-logo"> <img src="logo_spotify.png" alt="Spotify" class="brand-logo"> <img src="logo_netflix.png" alt="Netflix" class="brand-logo"> <img src="logo_amazon.png" alt="Amazon" class="brand-logo"> <img src="logo_maps.png" alt="Google Maps" class="brand-logo"> <img src="logo_snapchat.png" alt="Snapchat" class="brand-logo"> <img src="logo_threads.png" alt="Threads" class="brand-logo"> <img src="logo_chrome.png" alt="Chrome" class="brand-logo"> <img src="logo_safari.png" alt="Safari" class="brand-logo"> <img src="logo_substack.png" alt="Substack" class="brand-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section light-section">
+    <div class="features-container">
+      <div class="section-header">
+      <h2 class="section-title">A better way to keep the good stuff.</h2>
+      <p class="section-subtitle">Capush turns scattered saves, screenshots, tabs, and self-DMs into visual cards that are easy to access and share</p>
+    </div>
+    
+    <div class="features-floating-displays">
+      <img src="feature_float_1.png" alt="Capush App Interface 1" class="float-img left-img">
+      <img src="feature_float_2.png" alt="Capush App Interface 2" class="float-img right-img">
+    </div>
+    
+    <div class="features-grid-wrapper">
+      <div class="features-grid">
+        <!-- Card 1 -->
+        <div class="feature-card">
+          <div class="feature-icon icon-green">✦</div>
+          <h3 class="feature-title">See it. Save it.</h3>
+          <p class="feature-text">Send content to Capush from Instagram, TikTok, YouTube, Google Maps, Safari, and more. Save links, notes, and media in one place.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="feature-card">
+          <div class="feature-icon icon-purple">◩</div>
+          <h3 class="feature-title">Cards keep it together.</h3>
+          <p class="feature-text">Group anything into a card: travel plans, workout routines, restaurants, recipes, skincare finds, saved articles, or gift ideas.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="feature-card">
+          <div class="feature-icon icon-orange">⚡</div>
+          <h3 class="feature-title">Find it fast.</h3>
+          <p class="feature-text">Big thumbnails and instant search make it easy to get back to the right thing without digging through tabs, screenshots, or notes.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="feature-card">
+          <div class="feature-icon icon-blue">⌲</div>
+          <h3 class="feature-title">Share it or keep it private.</h3>
+          <p class="feature-text">Keep cards for yourself, or make them public and share your best finds with friends, followers, or anyone else.</p>
+        </div>
+      </div>
+      <div class="features-side-image">
+        <img src="tokyo_trip.png" alt="Tokyo Trip Card Detail" class="floating-img">
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="curators" class="testimonials-section light-section-alt">
+    <div class="section-header testimonial-header">
+      <div class="testimonial-header-text">
+        <h2 class="section-title">Loved by curators.</h2>
+        <p class="section-subtitle">How people use Capush</p>
+      </div>
+      <div class="testimonial-arrows">
+        <button class="arrow-btn">←</button>
+        <button class="arrow-btn">→</button>
+      </div>
+    </div>
+    <div class="testimonials-grid" id="curators-grid">
+      <!-- Card 1 -->
+      <div class="testimonial-card">
+        <div class="testimonial-author">
+          <img src="avatar_1.png" alt="Maya Chen">
+          <div>
+            <h4>Maya Chen</h4>
+            <span>Travel and food</span>
+          </div>
+        </div>
+        <p class="testimonial-quote">“I keep city guides, cafés, restaurants, and weekend ideas in Capush. It is like having all my good finds in one place instead of scattered across apps.”</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="testimonial-card">
+        <div class="testimonial-author">
+          <img src="avatar_2.png" alt="Jordan Rivera">
+          <div>
+            <h4>Jordan Rivera</h4>
+            <span>Everyday saver</span>
+          </div>
+        </div>
+        <p class="testimonial-quote">“I used to screenshot everything and forget why I saved it. Capush makes the stuff I save actually usable.”</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="testimonial-card">
+        <div class="testimonial-author">
+          <img src="avatar_4.png" alt="Lena Brooks">
+          <div>
+            <h4>Lena Brooks</h4>
+            <span>Fitness and routines</span>
+          </div>
+        </div>
+        <p class="testimonial-quote">“I save workouts, meal ideas, podcasts, and wellness tips I want to revisit. Capush helps me keep the ones worth coming back to.”</p>
+      </div>
+      <!-- Card 5 -->
+      <div class="testimonial-card">
+        <div class="testimonial-author">
+          <img src="avatar_5.png" alt="Noah Kim">
+          <div>
+            <h4>Noah Kim</h4>
+            <span>Shared recommendations</span>
+          </div>
+        </div>
+        <p class="testimonial-quote">“When a friend asks for my favorite spots, I send one Capush card instead of typing out a list from scratch.”</p>
+      </div>
+      <!-- Card 6 -->
+      <div class="testimonial-card">
+        <div class="testimonial-author">
+          <img src="avatar_6.png" alt="Sofia Martinez">
+          <div>
+            <h4>Sofia Martinez</h4>
+            <span>Style and inspiration</span>
+          </div>
+        </div>
+        <p class="testimonial-quote">“I like that Capush can be private when I want it to be, but it also gives me a simple way to share the collections I am proud of.”</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Audience Section -->
+  <section class="audience-section">
+    <div class="section-header">
+      <h2 class="section-title">Made for every kind of saver.</h2>
+      <p class="section-subtitle">For researchers, creators, curators, students, travelers, food people, beauty people, fitness people, and anyone whose saving habit is currently a mess.</p>
+    </div>
+    <div class="audience-layout">
+      <div class="audience-grid">
+        <div class="audience-card card-green">
+          <div class="audience-icon icon-circle-green">◈</div>
+          <h4>For curious people</h4>
+          <p class="audience-desc">Save articles, ideas, reports, videos, and references worth revisiting.</p>
+        </div>
+        <div class="audience-card card-purple">
+          <div class="audience-icon icon-circle-purple">◈</div>
+          <h4>For lifestyle savers</h4>
+          <p class="audience-desc">Keep recipes, restaurants, workouts, skincare, travel spots, and shopping finds together.</p>
+        </div>
+        <div class="audience-card card-cyan">
+          <div class="audience-icon icon-circle-cyan">◈</div>
+          <h4>For curators</h4>
+          <p class="audience-desc">Turn your taste into cards you can keep private or share with others.</p>
+        </div>
+        <div class="audience-card card-red">
+          <div class="audience-icon icon-circle-red">◈</div>
+          <h4>For everyday use</h4>
+          <p class="audience-desc">Replace screenshots, self-DMs, notes, and scattered bookmarks with something cleaner.</p>
+        </div>
+      </div>
+      <div class="audience-visual">
+        <img src="explore_promo.png" alt="Explore Cards Promo" class="perspective-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section light-section">
+    <div class="faq-container">
+      <div class="section-header">
+        <h2 class="section-title">Got Questions?</h2>
+      </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">What is Capush?</button>
+        <div class="faq-answer">
+          <p>Capush is a mobile app that helps you save content and references into visual collections called cards. It is built for the good things you find online and want to come back to later.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What is a card?</button>
+        <div class="faq-answer">
+          <p>A card is a themed collection. It can be about travel, restaurants, workouts, skincare, recipes, articles, gift ideas, or anything else. Each saved item appears with useful details like image, title, description, and source when available.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How is Capush different from Pinterest or bookmarks?</button>
+        <div class="faq-answer">
+          <p>Capush is broader and more practical. It works with more content types, more sources, and more everyday use cases. It is built to help you save, organize, and retrieve what matters, not just collect images.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I create my first card?</button>
+        <div class="faq-answer">
+          <p>Open Capush, tap the plus button, create a new card, and start adding links. You can also save directly from Safari or other apps using the share sheet.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can I share my cards with other people?</button>
+        <div class="faq-answer">
+          <p>Yes. You can keep cards private or share them with friends, followers, or anyone else. Capush works well as a personal tool and as a way to share curated collections.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What can I save in Capush?</button>
+        <div class="faq-answer">
+          <p>You can save links, notes, media, and references from apps and websites like Instagram, TikTok, YouTube, Google Maps, Reddit, Substack, Spotify, and more.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I organize what I save?</button>
+        <div class="faq-answer">
+          <p>Create separate cards for different topics, reorder items inside a card, and use search to quickly find what you saved later.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="download" class="cta-section">
+    <h2 class="cta-title">Save the internet.<br>Or at least the good parts.</h2>
+    <div class="cta-actions">
+      <a href="https://apps.apple.com/my/app/capush-save-the-internet/id6748712787" class="btn btn-secondary store-btn" target="_blank">
+        <svg viewBox="0 0 24 24" class="icon-apple" fill="currentColor">
+          <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.19 2.31-.88 3.5-.83 1.64.09 2.92.83 3.63 2.02-3.14 1.84-2.6 5.86.32 7.02-.67 1.83-1.63 3.42-2.53 3.96zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+        </svg>
+        Download on the App Store
+      </a>
+      <a href="#" class="btn btn-primary pill dark-pill">Learn more</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo-block">
+        <a href="index.html" class="logo" style="text-decoration: none;">
+          <span class="logo-text">Capush</span>
+        </a>
+        <p class="footer-desc">The modern way to browse, save, and share what actually matters to you on the internet.</p>
+        <div class="footer-socials">
+          <a href="#">IG</a>
+          <a href="#">X</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="link-col">
+          <h4>Product</h4>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">FAQ</a>
+        </div>
+        <div class="link-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="support.html">Support</a>
+        </div>
+        <div class="link-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Capush. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
